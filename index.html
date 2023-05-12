@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="dropzone">
+      <i class="ri-upload-cloud-2-line"></i>
+      <p id="dropzoneText">
+        ... برای آپلود فایل کلیک کنید یا فایل را بکشید و سپس رها کنید
+      </p>
+      <input type="file" id="file-input" />
+    </div>
+
+    <div id="previewzone" class="hide">
+      <img src="" id="preview" />
+      <div class="btns">
+        <button class="btn backBtn" href="">انصراف</button>
+        <button class="btn uploadBtn" href="">آپلود فایل</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

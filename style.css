@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "iranSans";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+#dropzone,
+#previewzone {
+  width: 50%;
+  height: 50%;
+  border: 3px dashed #ac70ff;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#dropzone {
+  cursor: pointer;
+}
+
+#dropzone p {
+  font-size: 1.2rem;
+  color: #ac70ff;
+}
+
+#dropzone input {
+  display: none;
+}
+
+#dropzone i {
+  font-size: 5rem;
+  color: #ac70ff;
+}
+
+#dropzone.hide {
+  display: none;
+}
+
+#previewzone.hide {
+  display: none;
+}
+
+#previewzone img {
+  height: 200px;
+}
+
+.btn {
+  background: #ffe7e7;
+  color: #000;
+  padding: 0.9rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.uploadBtn {
+  background: #ac70ff;
+  color: #fff;
+}
